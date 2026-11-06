@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "qubitpa",
+  "version": "${version}",
+  "name": "Qubi TPAHere",
+  "description": "Auto /tpahere na nick osoby, ktora napisala na czacie. Created by qubiszonnn",
+  "authors": ["qubiszonnn"],
+  "environment": "client",
+  "entrypoints": { "client": ["com.qubiszonnn.tpahere.QubiTpaHere"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
